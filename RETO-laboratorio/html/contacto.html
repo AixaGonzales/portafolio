@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/contacto.css">
+    <script src="js/contacto.js" defer></script>
+    <title>Contacto</title>
+</head>
+<body>
+
+    <header class="encabezado">
+        <div class="kitty">
+            <img src="../imagenes/kitty.webp" alt="Imagen de Hello Kitty" class="kittyImg">
+        </div>
+        <nav class="nav">
+            <ul class="botones">
+                <li class="seccion"><a class="nav-link" href="../index.html">Inicio</a></li>
+                <li class="seccion"><a class="nav-link" href="../html/proyectos.html">Proyectos</a></li>
+                <li class="seccion"><a class="nav-link" href="../html/proyectos.html">Contáctame</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+      <section class="seccion-contacto">
+        <h2 class="titulo">Contáctame</h2>
+        <p class="parrafo1">Si tienes alguna pregunta o quieres colaborar, ¡no dudes en enviarme un mensaje!</p>
+        <br>
+        <br>
+        
+        <form id="formularioContacto" class="formulario">
+            <label for="nombre" class="pregunta">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required><br><br>
+    
+            <label for="correo" class="pregunta">Correo electrónico:</label>
+            <input type="email" id="correo" name="correo" required><br><br>
+    
+            <button type="submit" class="enviar">Enviar</button>
+        </form>
+        
+        <p class="mensaje"></p>
+    </section>
+    <br>
+    <br>
+
+        <section class="seccion-redes-sociales">
+            <h2>Conéctame en mis redes sociales</h2>
+            <div class="contenedor-redes">
+                <a href="https://github.com/AixaGonzales" target="_blank" class="icono-red-social">
+                    <img src="../imagenes/iconoss.png" alt="GitHub" class="imagen-icono">
+                </a>
+                <a href="https://www.instagram.com/tu-perfil" target="_blank" class="icono-red-social">
+                    <img src="../imagenes/iconoss2.jpg" alt="Instagram" class="imagen-icono">
+                </a>
+                <a href="https://www.twitter.com/tu-perfil" target="_blank" class="icono-red-social">
+                    <img src="../imagenes/iconoss3.png" alt="Twitter" class="imagen-icono">
+                </a>
+                <a href="https://www.linkedin.com/in/tu-perfil" target="_blank" class="icono-red-social">
+                    <img src="../imagenes/iconoss4.png" alt="LinkedIn" class="imagen-icono">
+                </a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="contenedor-footer">
+            <p>2024 <strong>Aixa Gonzales del Valle Aburto</strong> | Todos los derechos reservados</p>
+            <p>Perú - Cañete - San Luis | <a href="mailto:aixa.gonzalesdelvalle.aburt@vallegrande.edu.pe">aixa.gonzalesdelvalle.aburt@vallegrande.edu.pe</a></p>
+            <p>Estudiante de Análisis de Sistemas en <strong>Valle Grande</strong></p>
+            <div class="enlaces-sociales">
+                <a href="https://www.linkedin.com/in/tuperfil" target="_blank">Instagram</a> |
+                <a href="https://github.com/tuperfil" target="_blank">GitHub</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
